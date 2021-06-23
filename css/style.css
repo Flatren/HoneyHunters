@@ -1,0 +1,135 @@
+html{
+  position: relative;
+  min-height: 100%;
+}
+body{
+	padding: 0;
+	margin:0; 
+	font-family: 'Roboto', sans-serif;
+}
+.header{
+	background-color: #2D3136;
+	padding-top:2rem; 
+	padding-bottom: 2rem;
+}
+.header .logo{
+	margin-bottom: 2rem;
+}
+.image-center{
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.right{
+	text-align: right;
+}
+
+.chapter-one{
+	margin-bottom: 1rem;
+}
+
+.main{
+	background-color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 10rem;
+	margin-top: 6rem; 
+}
+
+
+.red{
+	color: red;
+}
+form label{
+	font-weight: bold;
+	font-size: 1rem;
+	color: #FFFFFF;
+}
+.disane-input{
+	color: #FFFFFF !important;
+	background-color: #2D3136 !important;
+	border-color: #545661 !important;
+}
+form textarea{
+	height: 75%;
+	resize: none;
+}
+form input{
+	margin-bottom: 1rem;
+}
+
+.h1{
+	text-align: center;
+	margin-bottom: 6rem !important;
+
+}
+.object-card{
+    margin-bottom: 2.5rem;
+}
+.mcard{
+	height: 100%;
+	font-size: 2rem;
+	max-width: 20rem;
+	padding-bottom:3rem;
+	border:0 !important;
+}
+
+.bgnamegreen{
+    background-color: #58ad52 !important;
+}
+.mcard .name{
+	color: #FFFFFF;
+	width: 100%;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.mcard .email{
+	margin-top: 1rem;
+	font-size: 2rem;
+
+}
+.mcard .c_text{
+	margin-top: 1.5rem;
+}
+.footer{
+	background-color: #2D3136;
+	padding-top:2rem; 
+	padding-bottom: 2rem;
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer .icon{
+	text-align: right;
+}
+.icon img{
+	margin-left: 1rem;
+}
+
+.grey .name{
+	background-color: #4b596c;
+}
+
+.green .name{
+	background-color: #58ad52;
+}
+.grey .email{
+	color: #767582;
+}
+.green .email{
+
+	color: #58ad52;
+}
+.grey .mcard{
+	background-color:#e9eef3 !important;
+}
+.green .mcard{
+
+	background-color:#deebde !important;
+}
+.grey .c_text{
+color: #767582;
+}
+.green .c_text{
+color: #768275;
+}

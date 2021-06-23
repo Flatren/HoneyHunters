@@ -1,0 +1,88 @@
+<!DOCTYPE html> 
+<html>
+	<head> 
+		<meta charset="UTF-8">
+		<title>Hunters Management</title> 
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+		<script src="js/main.js"></script>
+	</head>
+	<!-- onload="Init();" onunload="UnInit();"-->
+<body class="body" onload="Init();" onunload="UnInit();">
+
+<header class="header">
+	<div class="container logo">
+		<div class="row">
+			<div class="col-ml-3">
+				<a href="#"><img height="40px" src="img/logo.png"></a>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-ml-3 image-center">
+				<img height="250px" src="img/ContactIcon.png">
+			</div>	
+		</div>
+
+	<form id="FormNewComment" class="form-row" method="POST">
+		<div class="row justify-content-between chapter-one">
+			<div class="col-5 form-group">
+				<label for="inputNameUser"> Имя <span class="red">*</span></label>
+				<input type="text" class="disane-input form-control " name="name" id="inputNameUser" pattern="^[A-Za-zА-Яа-яЁё]{1,}$" title= "Имя состоит только из символов(более 1 символа без пробелов).">
+				<label for="inputEmailUser">E-Mail <span class="red">*</span></label>
+				<input type="email" class="disane-input form-control " name="email" id="inputEmailUser">
+			</div>
+			<div class="col-6 form-group">
+				<label for="inputCommentUser"> Комментарий <span class="red">*</span></label>
+				<textarea id="inputCommentUser" class=" disane-input form-control" name="c_text"></textarea>
+			</div>
+		</div>
+		<div class="row justify-content-center right">
+			<div class="col form-group">
+				<button type="submit" width="max" class="btn btn-danger">Записать</button>
+			</div>
+		</div>	
+	</form>
+	</div>
+</header>
+
+<main class="container main">
+	<div class="row">
+		<div class="col h1">
+			<h1>Выводим комментарии</h1>
+		</div>
+	</div>
+	<div ID="collection-cards" class="row justify-content-start">
+		<!--<div class="col-4 object-card">
+			<div class="card mcard">
+  				<div class="card-header name">Вася</div>
+				<div class="card-body">
+	    			<h5 class="card-title email">vasy.@mail.ri</h5>
+	    			<p class="card-text c_text">Сообщение от Василия Пупкина</p>
+  				</div>
+			</div>
+		</div>-->
+		</div>
+
+</main>
+
+<footer class="footer">
+	<div class="container logo">
+		<div class="row justify-content-between">
+			<div class="col-3">
+				<a href="#"><img height="40px" src="img/logo.png"></a>
+			</div>
+			<div class="col-3 icon">
+				<a href="#"><img height="40px" src="img/vk.png"></a>
+				<a href="#"><img height="40px" src="img/f.png"></a>
+			</div>
+		</div>
+		
+	</div>
+</footer>
+
+</body>
+
+</html>
